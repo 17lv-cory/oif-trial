@@ -1,53 +1,396 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>管理Index</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .button-container {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr); /* 4列に配置 */
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-        .button {
-            display: inline-block;
-            padding: 15px 25px;
-            text-decoration: none;
-            background-color: #007bff;
-            color: white;
-            border-radius: 5px;
-            text-align: center;
-            transition: background-color 0.3s ease;
-        }
-        .button:hover {
-            background-color: #0056b3;
-        }
-        h1 {
-            margin-bottom: 30px;
-        }
-    </style>
+    <title>アイテムカタログ</title>
 </head>
-<body>
-    <h1>管理メニュー</h1>
-    <div class="button-container">
-        <a href="https://17lv-cory.github.io/oif-trial/sample.html" class="button">sample</a>
-        <a href="link2.html" class="button">ボタン2</a>
-        <a href="link3.html" class="button">ボタン3</a>
-        <a href="link4.html" class="button">ボタン4</a>
-        <a href="link5.html" class="button">ボタン5</a>
-        <a href="link6.html" class="button">ボタン6</a>
-        <a href="link7.html" class="button">ボタン7</a>
-        <a href="link8.html" class="button">ボタン8</a>
-    </div>
-</body>
-</html>
+
+<body style="font-family: Arial, sans-serif; margin: 20px;">
+    <h1 style="text-align: center; color: #333;">アイテムカタログ</h1>
+
+    <div class='category-container' style='margin-bottom: 20px;'>
+        <h2 class='category-title' style='background-color: #f0f0f0; padding: 10px; border-radius: 5px;'>Tシャツ</h2>
+        <div class='item-container' style='display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;'>
+    
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/1/OGB-910-1-Main.jpg' alt='オーガニックコットンTシャツ' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>オーガニックコットンTシャツ</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>5.3oz  オーガニックコットン100％</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: S　M　L　XL　XXL
+ナチュラル
+ホワイト
+ブラック"</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/2/500101-1-Main.jpg' alt='スタンダードTシャツ' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>スタンダードTシャツ</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>誰が着ても、バランスが良くなるように仕上げられたスタンダードなTシャツ
+5.6oz</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: S　M　L　XL
+ホワイト、ブラック
+アッシュ、ネイビー
+サンドベージュ"</p>
+            </div>
+        </div></div>
+    <div class='category-container' style='margin-bottom: 20px;'>
+        <h2 class='category-title' style='background-color: #f0f0f0; padding: 10px; border-radius: 5px;'>インテリア</h2>
+        <div class='item-container' style='display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;'>
+    
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/29/printio_item_canvas_tate-4.jpg' alt='キャンバス（F0サイズ）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>キャンバス（F0サイズ）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>273×273ミリ</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: S　M　L　XL
+ホワイト、ブラック
+アッシュ、ネイビー
+サンドベージュ"</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/30/printio_item_canvas_sikaku-3.jpg' alt='キャンバス（正方形）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>キャンバス（正方形）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>180×140ミリ</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: S　M　L　XL
+ホワイト、ブラック
+アッシュ、ネイビー
+サンドベージュ"</p>
+            </div>
+        </div></div>
+    <div class='category-container' style='margin-bottom: 20px;'>
+        <h2 class='category-title' style='background-color: #f0f0f0; padding: 10px; border-radius: 5px;'>スウェット／
+フーディ</h2>
+        <div class='item-container' style='display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;'>
+    
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/4/SP2252-1_Main.jpg' alt='パーカー（フード付き）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>パーカー（フード付き）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>オーセンティックなシルエットのパーカ。10oz</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: S　M　L　XL
+ホワイト、ブラック
+アッシュ、ネイビー</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/6/SW2210_1_Main.jpg' alt='スウェット' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>スウェット</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>レギュラーウェイト スウェットシャツ
+10oz</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: S　M　L　XL
+ホワイト、ブラック
+アッシュ、ネイビー</p>
+            </div>
+        </div></div>
+    <div class='category-container' style='margin-bottom: 20px;'>
+        <h2 class='category-title' style='background-color: #f0f0f0; padding: 10px; border-radius: 5px;'>バッグ</h2>
+        <div class='item-container' style='display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;'>
+    
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/5/TR-1048-1_Main.jpg' alt='トート(L)' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>トート(L)</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>オーガニックコットン キャンバストート(L)</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: ナチュラル</p>
+            </div>
+        </div></div>
+    <div class='category-container' style='margin-bottom: 20px;'>
+        <h2 class='category-title' style='background-color: #f0f0f0; padding: 10px; border-radius: 5px;'>長袖Tシャツ</h2>
+        <div class='item-container' style='display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;'>
+    
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/3/501101-1-Main.jpg' alt='長袖Tシャツ（スタンダート）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>長袖Tシャツ（スタンダート）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>5.6oz ロングスリーブ Tシャツ
+（1.6インチリブ）</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: S　M　L　XL
+ホワイト、ブラック
+アッシュ、ネイビー
+サンドベージュ</p>
+            </div>
+        </div></div>
+    <div class='category-container' style='margin-bottom: 20px;'>
+        <h2 class='category-title' style='background-color: #f0f0f0; padding: 10px; border-radius: 5px;'>雑貨</h2>
+        <div class='item-container' style='display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;'>
+    
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/7/printio_44mmkan-1.jpg' alt='丸型缶バッジ（直径44mm）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>丸型缶バッジ（直径44mm）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>小さすぎない、直径44mmの缶バッジ。裏側にはピン付き。</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 44㎜　ホワイト</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/8/printio_56mmkan-1.jpg' alt='丸型缶バッジ（直径56mm）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>丸型缶バッジ（直径56mm）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>平均的なサイズの、直径56mmの缶バッジ。裏側にはピン付き。</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 56㎜　ホワイト</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/10/printio_acrylickey_kaku-1.jpg' alt='アクリルキーホルダー　50mm四角' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>アクリルキーホルダー　50mm四角</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>50mm x 50mmの正方形のアクリルキーホルダー。15cmのボールチェーン付き。</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/18/printio_item_acrylickey_round-2.jpg' alt='アクリルキーホルダー（円形・裏面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>アクリルキーホルダー（円形・裏面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>50mm x 50mmの円形のアクリルキーホルダー。15cmのボールチェーンでポーチにも鞄にもピッタリなサイズ。</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/19/printio_item_acrylicstand_sikaku_naname-7.jpg' alt='アクリルスタンド 95×95（正方形・ななめ立てかけ型・裏面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>アクリルスタンド 95×95（正方形・ななめ立てかけ型・裏面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>アクリルは3mm、薄すぎず高級感あり。スタンドの形は店頭ポップとしても使いやすい「斜め型」※組み立て式</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/20/printio_item_acrylicstand_shikaku_tate-3.jpg' alt='アクリルスタンド　95×95（正方形・直立型・裏面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>アクリルスタンド　95×95（正方形・直立型・裏面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>アクリルは3mm、薄すぎず高級感あり。スタンドの形は見やすい「直立型」※組み立て式</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/21/printio_item_acrylicstand_choho_naname-4.jpg' alt='アクリルスタンド　120×95（長方形・ななめ立てかけ型・裏面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>アクリルスタンド　120×95（長方形・ななめ立てかけ型・裏面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>アクリルは3mm、薄すぎず高級感あり。スタンドの形は店頭ポップとしても使いやすい「斜め型」※組み立て式</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/22/printio_item_acrylicstand_choho_tate.jpg' alt='アクリルスタンド　120×95（長方形・直立型・裏面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>アクリルスタンド　120×95（長方形・直立型・裏面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>アクリルは3mm、薄すぎず高級感あり。スタンドの形は見やすい「直立型」※組み立て式</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/23/printio_item_coaster_round-4.jpg' alt='アクリルコースター（円形・裏面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>アクリルコースター（円形・裏面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>一般的なサイズです。
+円形でかわいらしい。</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/24/printio_item_coaster_kaku-4.jpg' alt='アクリルコースター（正方形・裏面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>アクリルコースター（正方形・裏面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>一般的なサイズです。
+正方形なので正方形ロゴやイラストとの相性もばっちりです。</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/25/printio_item_acrylicpanel-4.jpg' alt='アクリルパネル（金具付き正方形・裏面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>アクリルパネル（金具付き正方形・裏面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>165×165ミリ</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/26/printio_acrylicpanel_B5tate-2.jpg' alt='アクリルパネル（金具付きB5縦・裏面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>アクリルパネル（金具付きB5縦・裏面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>177×252ミリ</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/27/printio_acrylicpanel_B5yoko-4.jpg' alt='アクリルパネル（金具付きB5横・裏面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>アクリルパネル（金具付きB5横・裏面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>177×252ミリ</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/28/printio_item_phoneacrylic-06.jpg' alt='カード＆スマホスタンド（表面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>カード＆スマホスタンド（表面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'></p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/31/printio_item_cheero-7.jpg' alt='モバイルバッテリー' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>モバイルバッテリー</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>122.5×67ミリ
+容量：5000mAh/3.7V（18.5Wh）
+入力：USB-C 5V/2A max.
+重量：約135ｇ</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/32/printio_item_pin_round-1.jpg' alt='ピンバッジ（円形20mm、裏面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>ピンバッジ（円形20mm、裏面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>20ミリ</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/33/printio_item_pin_kaku-5.jpg' alt='ピンバッジ（正方形22㎜、裏面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>ピンバッジ（正方形22㎜、裏面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>22ミリ</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/34/printio_item_waterbottle-05.jpg' alt='ウォーターボトル（表面プリント）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>ウォーターボトル（表面プリント）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>内容量：380ml　177×85ミリ
+フレームが外れて洗いやすいプラスチックとシリコンで出来たウォーターボトル。</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/35/printio_item_mirror_round-3.jpg' alt='コンパクトミラー（円形）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>コンパクトミラー（円形）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>表面素材：合皮（PU/ポリウレタン）
+本体素材：ABS　　鏡素材：ガラス
+金属部分：クロームメッキ
+円形重量：約60g / 正方形重量：約71g</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        
+            <div class='item' style='border: 1px solid #ddd; padding: 10px; border-radius: 5px; width: calc(25% - 20px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); box-sizing: border-box;'>
+                <a href='https://handsup.17.live/' target='_blank'>
+                    <img src='https://printioretailer.blob.core.windows.net/printio-retailer-images/Items/36/printio_item_mirror_sikaku-2.jpg' alt='コンパクトミラー（正方形）' style='max-width: 100%; height: auto; margin-bottom: 10px;'>
+                </a>
+                <h3 class='item-title' style='font-weight: bold; margin-bottom: 5px;'>
+                    <a href='https://handsup.17.live/' target='_blank' style='color: #333; text-decoration: none;'>コンパクトミラー（正方形）</a>
+                </h3>
+                <p class='item-details' style='margin-bottom: 5px;'>表面素材：合皮（PU/ポリウレタン）
+本体素材：ABS　　鏡素材：ガラス
+金属部分：クロームメッキ
+円形重量：約60g / 正方形重量：約71g</p>
+                <p class='item-details' style='margin-bottom: 5px;'>サイズ、カラー: 50mm x 50mm
+15cmボールチェーン付き</p>
+            </div>
+        </div></div></body></html>
